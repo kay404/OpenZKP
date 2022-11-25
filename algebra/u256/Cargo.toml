@@ -15,7 +15,7 @@ edition = "2018"
 
 [dependencies]
 crunchy = { version = "0.2.2", default_features = false }
-hex = { version = "0.4.0", default_features = false }
+hex = { version = "0.4.3", default-features = false, features = ["alloc"] }
 itertools = { version = "0.9.0", default_features = false }
 no-std-compat = { version = "0.4.0", features = [ "alloc" ] }
 num-traits = { version = "0.2.10", default_features = false }
